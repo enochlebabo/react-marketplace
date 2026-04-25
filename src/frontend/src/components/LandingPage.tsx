@@ -148,14 +148,14 @@ export function LandingPage() {
 
       {/* Footer */}
       <footer className="relative z-10 pb-4 sm:pb-6 text-center text-muted-foreground text-sm">
-        &copy; 2026. Built with ❤️ using{" "}
+        &copy; 2026. Built by Enoch Lebabo @2026 {" "}
         <a
-          href="https://caffeine.ai"
+          href="https://enochlebabo.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary hover:text-primary/80 underline"
         >
-          caffeine.ai
+          enochlebabo_portfolio
         </a>
       </footer>
     </div>
