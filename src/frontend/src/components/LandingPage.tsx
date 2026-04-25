@@ -148,7 +148,7 @@ export function LandingPage() {
 
       {/* Footer */}
       <footer className="relative z-10 pb-4 sm:pb-6 text-center text-muted-foreground text-sm">
-        &copy; 2026. Built by Enoch Lebabo @2026 {" "}
+        &copy; 2026. Built by Enoch Lebabo {" "}
         <a
           href="https://enochlebabo.netlify.app/"
           target="_blank"
