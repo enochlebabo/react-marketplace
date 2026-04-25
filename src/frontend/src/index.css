@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fdfcf9;
+  --foreground: #1a1412;
+  --card: #ffffff;
+  --card-foreground: #1a1412;
+  --popover: #ffffff;
+  --popover-foreground: #1a1412;
+  --primary: #c2410c;
+  --primary-foreground: #ffffff;
+  --secondary: #f3ede3;
+  --secondary-foreground: #7c2d12;
+  --muted: #f3ede3;
+  --muted-foreground: #78716c;
+  --accent: #ffedd5;
+  --accent-foreground: #c2410c;
+  --destructive: #991b1b;
+  --destructive-foreground: #fef2f2;
+  --border: #e7e5e4;
+  --input: #e7e5e4;
+  --ring: #c2410c;
+  --chart-1: #c2410c;
+  --chart-2: #ea580c;
+  --chart-3: #fb923c;
+  --chart-4: #fdba74;
+  --chart-5: #fed7aa;
+  --sidebar: #fbfaf7;
+  --sidebar-foreground: #44403c;
+  --sidebar-primary: #c2410c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f3ede3;
+  --sidebar-accent-foreground: #c2410c;
+  --sidebar-border: #e7e5e4;
+  --sidebar-ring: #c2410c;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Fraunces", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --radius: 0.375rem;
+  --shadow-x: 0px;
+  --shadow-y: 4px;
+  --shadow-blur: 10px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.05;
+  --shadow-color: #1a1412;
+  --shadow-2xs: 0px 4px 10px 0px hsl(15 18.1818% 8.6275% / 0.03);
+  --shadow-xs: 0px 4px 10px 0px hsl(15 18.1818% 8.6275% / 0.03);
+  --shadow-sm: 0px 4px 10px 0px hsl(15 18.1818% 8.6275% / 0.05), 0px 1px 2px
+    -1px hsl(15 18.1818% 8.6275% / 0.05);
+  --shadow: 0px 4px 10px 0px hsl(15 18.1818% 8.6275% / 0.05), 0px 1px 2px -1px
+    hsl(15 18.1818% 8.6275% / 0.05);
+  --shadow-md: 0px 4px 10px 0px hsl(15 18.1818% 8.6275% / 0.05), 0px 2px 4px
+    -1px hsl(15 18.1818% 8.6275% / 0.05);
+  --shadow-lg: 0px 4px 10px 0px hsl(15 18.1818% 8.6275% / 0.05), 0px 4px 6px
+    -1px hsl(15 18.1818% 8.6275% / 0.05);
+  --shadow-xl: 0px 4px 10px 0px hsl(15 18.1818% 8.6275% / 0.05), 0px 8px 10px
+    -1px hsl(15 18.1818% 8.6275% / 0.05);
+  --shadow-2xl: 0px 4px 10px 0px hsl(15 18.1818% 8.6275% / 0.13);
+  --tracking-normal: -0.01em;
+  --spacing: 0.25rem;
+  --landing: #faf8f5;
+  --landing-dot: #e7e0d6;
+}
+
+.dark {
+  --background: #1a1412;
+  --foreground: #fef3c7;
+  --card: #241b19;
+  --card-foreground: #fef3c7;
+  --popover: #241b19;
+  --popover-foreground: #fef3c7;
+  --primary: #f97316;
+  --primary-foreground: #1a1412;
+  --secondary: #2d2421;
+  --secondary-foreground: #fbbf24;
+  --muted: #2d2421;
+  --muted-foreground: #a8a29e;
+  --accent: #3d2e2a;
+  --accent-foreground: #fbbf24;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #3d2e2a;
+  --input: #3d2e2a;
+  --ring: #f97316;
+  --chart-1: #f97316;
+  --chart-2: #fb923c;
+  --chart-3: #fdba74;
+  --chart-4: #fed7aa;
+  --chart-5: #ffedd5;
+  --sidebar: #140f0d;
+  --sidebar-foreground: #d6d3d1;
+  --sidebar-primary: #f97316;
+  --sidebar-primary-foreground: #1a1412;
+  --sidebar-accent: #2d2421;
+  --sidebar-accent-foreground: #fbbf24;
+  --sidebar-border: #3d2e2a;
+  --sidebar-ring: #f97316;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Fraunces", serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --radius: 0.375rem;
+  --landing: #140f0d;
+  --landing-dot: #2d2421;
+  --shadow-x: 0px;
+  --shadow-y: 6px;
+  --shadow-blur: 15px;
+  --shadow-spread: 0px;
+  --shadow-opacity: 0.4;
+  --shadow-color: #000000;
+  --shadow-2xs: 0px 6px 15px 0px hsl(0 0% 0% / 0.2);
+  --shadow-xs: 0px 6px 15px 0px hsl(0 0% 0% / 0.2);
+  --shadow-sm: 0px 6px 15px 0px hsl(0 0% 0% / 0.4), 0px 1px 2px -1px
+    hsl(0 0% 0% / 0.4);
+  --shadow: 0px 6px 15px 0px hsl(0 0% 0% / 0.4), 0px 1px 2px -1px
+    hsl(0 0% 0% / 0.4);
+  --shadow-md: 0px 6px 15px 0px hsl(0 0% 0% / 0.4), 0px 2px 4px -1px
+    hsl(0 0% 0% / 0.4);
+  --shadow-lg: 0px 6px 15px 0px hsl(0 0% 0% / 0.4), 0px 4px 6px -1px
+    hsl(0 0% 0% / 0.4);
+  --shadow-xl: 0px 6px 15px 0px hsl(0 0% 0% / 0.4), 0px 8px 10px -1px
+    hsl(0 0% 0% / 0.4);
+  --shadow-2xl: 0px 6px 15px 0px hsl(0 0% 0% / 1);
+}
+
+body {
+  letter-spacing: var(--tracking-normal);
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
