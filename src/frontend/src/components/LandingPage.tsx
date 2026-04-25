@@ -61,7 +61,7 @@ export function LandingPage() {
               Your Community
             </span>
             <span className="block text-3xl sm:text-5xl md:text-6xl font-serif italic text-primary leading-[1.1] mt-1">
-              Marketplace
+              Marketplace Lesotho 🇱🇸
             </span>
           </h1>
 
